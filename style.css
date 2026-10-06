@@ -545,3 +545,17 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+
+.contact{
+  background-color: #E89951;
+  padding: 10px;
+  width: fit-content;
+  margin: 100PX auto ;
+  border-radius: 10%;
+  
+}
+.contact label{
+  color: #000000;
+
+}
