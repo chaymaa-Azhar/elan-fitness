@@ -9,4 +9,4 @@
 - [X] Créer la structure : `index.html`, `programmes.html`, `a-propos.html`, `contact.html`, `style.css`
 - [X] Transformer le one-pager en 4 fichiers HTML
 - [X] Header et footer communs sur toutes les pages
-- [ ] Commit de fin de journée
+- [X] Commit de fin de journée
