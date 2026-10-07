@@ -10,3 +10,11 @@
 - [X] Transformer le one-pager en 4 fichiers HTML
 - [X] Header et footer communs sur toutes les pages
 - [X] Commit de fin de journée
+## mercredi 7/10 : contact , logo , design les couleurs
+- [ ] page contact (formulaire , coordonnées, plan d'accés)
+- [ ] Corriger les boutons « Cours d'essai gratuit » et « Choisir » (lien vers `contact.html`)
+- [ ] ajouter button contact dans header
+- [ ] Vérifier que tous les liens du menu fonctionnent
+- [ ] crée une logo 
+- [ ] Vérifier le contraste et Harmoniser les couleurs du site (logo, boutons, titres....) 
+- [ ] Commit de fin de journée
