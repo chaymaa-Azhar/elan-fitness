@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="contact.css" >
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="en-tete">
     <div class="conteneur en-tete-contenu">
-      <a href="#accueil" class="logo">Élan Fitness</a>
+      <a href="index.html" class="logo"><img src="img/image.png" alt=""></a>
 
       <nav aria-label="Navigation principale">
         <ul class="menu">
@@ -22,16 +23,35 @@
   </header>
 
      <form class="contact">
-            <h3>contact nos</h3>
-        <label for="">nom : </label>
-        <input type="text" placeholder="entrer votre nom"><br>
-        <label for="">prenom : </label>
-        <input type="text" placeholder="entrer votre prenom"><br>
-        <label for="">numero : </label>
-        <input type="tel" placeholder="entrer votre numéro telephone"><br>
-        <label for="">gmail</label>
-        <input type="text" placeholder="entre votre gmail">
-     </form>
+  <h3>contact nos</h3>
+
+  <div class="champ">
+    <label for="nom">nom :</label>
+    <input type="text" id="nom" placeholder="entrer votre nom">
+  </div>
+
+  <div class="champ">
+    <label for="prenom">prenom :</label>
+    <input type="text" id="prenom" placeholder="entrer votre prenom">
+  </div>
+
+  <div class="champ">
+    <label for="numero">numero :</label>
+    <input type="tel" id="numero" placeholder="entrer votre numéro telephone">
+  </div>
+
+  <div class="champ">
+    <label for="gmail">gmail :</label>
+    <input type="email" id="gmail" placeholder="entre votre gmail">
+  </div>
+
+  <div class="champ">
+    <label for="adresse">Adresse :</label>
+    <input type="text" id="adresse" placeholder="entrer votre Adresse">
+  </div>
+
+  <input type="submit" value="envoyer">
+</form>
 
      <footer class="pied-de-page">
     <div class="conteneur">

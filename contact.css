@@ -1,0 +1,31 @@
+.contact{
+  background-color: #E89951;
+  padding: 50px;
+  width: fit-content;
+  margin: 100PX auto ;
+  border-radius: 10%;
+  
+  
+  
+}
+.champ {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.champ label {
+  width: 80px; 
+  color: #000000;
+}
+
+.champ input {
+  flex: 1;
+  padding: 5px;
+}
+
+
+
+
+
+
