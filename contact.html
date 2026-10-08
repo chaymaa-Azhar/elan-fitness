@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+        <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css" >
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="en-tete">
@@ -22,37 +22,44 @@
       </nav>
     </div>
   </header>
-
-     <form class="contact">
+  <main>
+     <form action="contact.html" class="contact">
   <h3>contact nos</h3>
 
   <div class="champ">
-    <label for="nom">nom :</label>
-    <input type="text" id="nom" placeholder="entrer votre nom">
+    <label for="nom"> nom :</label>
+    <input type="text" id="nom" placeholder="entrer votre nom" required>
   </div>
 
   <div class="champ">
     <label for="prenom">prenom :</label>
-    <input type="text" id="prenom" placeholder="entrer votre prenom">
+    <input type="text" id="prenom" placeholder="entrer votre prenom" required>
   </div>
 
   <div class="champ">
     <label for="numero">numero :</label>
-    <input type="tel" id="numero" placeholder="entrer votre numéro telephone">
+    <input type="tel" id="numero" placeholder="entrer votre numéro telephone" required>
   </div>
 
   <div class="champ">
     <label for="gmail">gmail :</label>
-    <input type="email" id="gmail" placeholder="entre votre gmail">
+    <input type="email" id="gmail" placeholder="entre votre gmail" required>
   </div>
 
   <div class="champ">
     <label for="adresse">Adresse :</label>
-    <input type="text" id="adresse" placeholder="entrer votre Adresse">
+    <input type="text" id="adresse" placeholder="entrer votre Adresse" required>
   </div>
+   <div class="champ">
+    <label for="message">message :</label>
+    <textarea name="message" id="message" placeholder="Comment puis-je vous aider ?" required></textarea> 
+ </div>
 
   <input type="submit" value="envoyer">
+  <input type="reset" value="anuuler">
+  
 </form>
+</main>
 
      <footer class="pied-de-page">
     <div class="conteneur">

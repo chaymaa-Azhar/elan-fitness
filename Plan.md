@@ -15,6 +15,7 @@
 - [X] Corriger les boutons « Cours d'essai gratuit » et « Choisir » (lien vers `contact.html`)
 - [X] crée une logo 
 - [X] ajouter button contact dans header
-- [ ] Vérifier que tous les liens du menu fonctionnent
-- [ ] Vérifier le contraste et Harmoniser les couleurs du site (logo, boutons, titres....) 
-- [ ] Commit de fin de journée
+## jeudi 8/10 : 
+- [X] Vérifier que tous les liens du menu fonctionnent
+- [X] Vérifier le contraste et Harmoniser les couleurs du site (logo, boutons, titres....) 
+- [X] Commit de fin de journée
