@@ -22,7 +22,7 @@
 ## 8/10 vendredi: contenue 
 - [X] contenue design page contact
 - [X] appliquer une animation et une transition CSS
-- [] verification cohérence entre les pages, lisibilité, boutons clairs
+- [X] verification cohérence entre les pages, lisibilité, boutons clairs
 - [] appliquer media sur style.css
 - [] Documentation
 - [] fin projet
