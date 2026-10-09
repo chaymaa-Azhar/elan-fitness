@@ -19,7 +19,7 @@
 - [X] Vérifier que tous les liens du menu fonctionnent
 - [X] Vérifier le contraste et Harmoniser les couleurs du site (logo, boutons, titres....) 
 - [X] Commit de fin de journée
-## 8/10 vendredi: contenue 
+## 9/10 vendredi: contenue 
 - [X] contenue design page contact
 - [X] appliquer une animation et une transition CSS sur page contact
 - [X] verification cohérence entre les pages, lisibilité, boutons clairs
