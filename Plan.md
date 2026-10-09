@@ -21,8 +21,8 @@
 - [X] Commit de fin de journée
 ## 8/10 vendredi: contenue 
 - [X] contenue design page contact
-- [X] appliquer une animation et une transition CSS
+- [X] appliquer une animation et une transition CSS sur page contact
 - [X] verification cohérence entre les pages, lisibilité, boutons clairs
-- [] appliquer media sur style.css
-- [] Documentation
-- [] fin projet
+- [X] appliquer media quiery sur style.css
+- [X] Documentation
+- [X] fin projet
