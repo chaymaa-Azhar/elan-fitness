@@ -199,16 +199,36 @@ button:focus-visible {
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
 }
-
+/*menu */
 .menu a:hover {
   color: #FF6B2C;
 }
 
-.menu .lien-actif {
+.accueil .en-tete a[href="index.html"]{
   color: #FF6B2C;
   font-weight: 600;
   border-bottom-color: #FF6B2C;
 }
+
+.apropos .en-tete a[href="a_propos.html"] {
+  color: #FF6B2C;
+  font-weight: 600;
+  border-bottom-color: #FF6B2C;
+}
+
+
+.programme .en-tete a[href="programme.html"] {
+  color: #FF6B2C;
+  font-weight: 600;
+  border-bottom-color: #FF6B2C;
+}
+
+.page_contact .en-tete a[href="contact.html"] {
+  color: #FF6B2C;
+  font-weight: 600;
+  border-bottom-color: #FF6B2C;
+}
+
 
 .hero {
   padding: 64px 0 96px;
