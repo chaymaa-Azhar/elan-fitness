@@ -1,14 +1,29 @@
-.contact{
-  background-color: #E89951;
-  padding: 50px;
-  width: fit-content;
-  margin: 100PX auto ;
-  border-radius: 10%;
+
+body{
+  background-image:url(img/IMG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  
 }
+.contact{
+  background-color: rgba(255, 248, 235, 0.95);
+  padding: 30px;
+  width: 500px;
+  margin: 50PX auto;
+  border-radius: 10%;
+  box-shadow: 0 30px 500px #383331;
+}
+
 .contact h3{
   text-align: center;
   margin-bottom: 30px;
-  font-size: medium;
+  font-size:xx-large;
+  color: #070f1b;
+  
+
 }
 
 .champ {
@@ -20,18 +35,62 @@
 .champ label {
   width: 80px; 
   color: #000000;
+  font-weight: 600;
 }
 
 .champ input {
   flex: 1;
   padding:10px;
+  background-color: transparent;
+  
 }
 
 .champ textarea{
   flex:1;
   padding: 10px; 
   min-height: 120px;
+  background: transparent;
+  background-color: #e9e7da;
 }
+
+.buttons-form {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.contact button {
+  background-color: #0F1B2D;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+  padding: 10px 20px;
+  font-size: small;
+  border-radius: 10px;
+  
+}
+
+.contact button:hover {
+  transform: translateY(-2px);
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #025525;
+  border-color: #FF6B2C;
+}
+
+.contact button[type="reset"]:hover {
+  background-color: #500101;
+  border-color: #FF6B2C;
+
+}
+
+
+
+
+
+
+
+
 
 
 
